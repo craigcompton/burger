@@ -1,0 +1,216 @@
+<!-- Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Friend Finder - Survey </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- survey -->
+    <div class="container">
+        <h1>Survey</h1>
+        <hr>
+        <h3>Answering these questions will help us find a match for a new Best Friend!</h3>
+        <hr>
+        <h4>About You</h4>
+        <form>
+            <div class="form-group">
+                <label for="userName">Your Name</label>
+                <input type="text" class="form-control" id="userName" aria-describedby="userName" placeholder="Name (required)">
+            </div>
+            <div class="form-group">
+                <label for="userPicUrl">Your Picture</label>
+                <input type="url" class="form-control" id="userPicUrl" placeholder="A link to a picture of you (required)">
+            </div>
+        </form>
+        <hr>
+        <h4>Questions (answer as honestly as you can)</h4>
+        <form class="form-select">
+
+            <label class="my-1 mr-2" for="quest1">Do you love the Dark Side fo the Force?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question1">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest2">Do you hate teen sex?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question2">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest3">Do you hate snakes?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question3">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest4">Do you hate aliens with acid for blood?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question4">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest5">Do you hate killing teenagers in arena combat?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question5">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest6">Do you love it when everything is 'Just Right'?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question6">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest7">Do you hate it when the Death Star blows up your home planet?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question7">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest8">Do you hate Kryponite?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question8">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest9">Do you hate robots that hate your unborn son?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question9">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <label class="my-1 mr-2" for="quest10">Do you love living with 7 diminutive bearded men?</label>
+            <select class="custom-select my-1 mr-sm-2" id="question10">
+                <option selected>Choose...</option>
+                <option value="1">One (strongly disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (strongly agree)</option>
+            </select>
+
+            <button type="submit" id="submitBtn" class="btn btn-primary my-1">Submit</button>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        $("#submitBtn").on("click", function (event) {
+            event.preventDefault();
+            // Form validation
+            var valid = true;
+            if ($("#userName").val() === "") {
+                valid = false;
+            } else if ($("#question1").val() === "empty" || $("#question2").val() === "empty" || $("#question3").val() === "empty" || $("#question4").val() === "empty" || $("#question5").val() === "empty" || $("#question6").val() === "empty" || $("#question7").val() === "empty" || $("#question8").val() === "empty" || $("#question9").val() === "empty" || $("#question10").val() === "empty") {
+                valid = false;
+            }
+            if (valid === true) {
+                var newUser = {
+                    name: $("#userName").val().trim(),
+                    photo: $("#userPicUrl").val().trim(),
+                    scores: [
+                        $("#question1").val(),
+                        $("#question2").val(),
+                        $("#question3").val(),
+                        $("#question4").val(),
+                        $("#question5").val(),
+                        $("#question6").val(),
+                        $("#question7").val(),
+                        $("#question8").val(),
+                        $("#question9").val(),
+                        $("#question10").val()
+                    ]
+                };
+                var currentURL = window.location.origin;
+                // Ajax call for receiving response after POST req
+                $.post(currentURL + "/api/friends", newUser, function (data) {
+                    $("#bestFriend").text(data.name);
+                    $("#bestFriendPhoto").attr("src", data.photo);
+                    $("#bestFriendModal").modal("toggle");
+                });
+            } else {
+                // If a required field is missing, show alert
+                alert("Survey is incomplete!");
+            }
+        });
+    </script>
+
+
+    <!-- modal -->
+    <div id="bestFriendModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Your new Best Friend is...</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="bestFriend"></h2>
+                    <img id="bestFriendPhoto" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
