@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 .jumbotron {
@@ -26,33 +25,4 @@
     margin: 0%;
     max-width: 25%;
     background-color: aqua;
-=======
-
-
-.jumbotron {
-    padding: 10px;
-}
-
-.leftCol {
-    padding: 0%;
-    margin: 0%;
-    max-width: 25%;
-    background-color: aqua;
-}
-
-.gifCol {
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../img/gif.gif");
-}
-
-
-
-.rightCol {
-    padding: 0%;
-    margin: 0%;
-    max-width: 25%;
-    background-color: aqua;
->>>>>>> 33f916f6b8fd76b892ccb06e557095e4255f140c
 }
