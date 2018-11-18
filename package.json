@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
+    "start": "node server.js"
+=======
     "start" : "node server.js"
+>>>>>>> 33f916f6b8fd76b892ccb06e557095e4255f140c
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <li>
 	{{burger_name}}
 
@@ -7,3 +8,14 @@
 
 	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 </li>
+=======
+<li>
+	{{burger_name}}
+
+	<button class="devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
+		{{#if devoured}}Eaten{{else}}Not Eaten{{/if}}
+	</button>
+
+	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li>
+>>>>>>> 33f916f6b8fd76b892ccb06e557095e4255f140c

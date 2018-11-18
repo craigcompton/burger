@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h2 class="display-4 jText">Eat-Da-Burger!</h2>
@@ -53,4 +54,61 @@
   </div>
 
   <button type="submit">Add Burger</button>
+=======
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h2 class="display-4 jText">Eat-Da-Burger!</h2>
+    <p class="lead">Keeping track of your dream burgers, and which ones you have DEVOURED!</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm leftCol">
+      <h5>Burgers to eat</h5>
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{>burger-list devoured=false}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+
+    <div class="col-sm gifCol"></div>
+
+    <div class="col-sm rightCol">
+      <h5>Burgers that have been eaten</h5>
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{>burger-list devoured=true}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+<h2>Add a Dream Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="burgerName" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="eaten">Eaten?</label><br>
+
+    <input type="radio" name="sleepy" value="0" checked> Not Eaten
+    <br>
+    <input type="radio" name="sleepy" value="1"> Eaten!
+  </div>
+
+  <button type="submit">Add Burger</button>
+>>>>>>> 33f916f6b8fd76b892ccb06e557095e4255f140c
 </form>
